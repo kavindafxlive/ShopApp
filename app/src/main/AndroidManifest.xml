@@ -25,6 +25,12 @@
         <activity
             android:name=".DisplayActivity">
         </activity>
+        <activity
+            android:name=".AddItemActivity">
+        </activity>
+        <activity
+            android:name=".AddBidActivity">
+        </activity>
     </application>
 
 </manifest>

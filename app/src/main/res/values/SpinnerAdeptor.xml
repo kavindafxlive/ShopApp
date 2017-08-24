@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Electronics</item>
+        <item>House/Property</item>
+        <item>Mobile Phones</item>
+        <item>Vehicles</item>
+        <item>Fashion</item>
+    </string-array>
+</resources>
