@@ -12,5 +12,71 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="User Name"
+        android:id="@+id/lbl_uname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Password"
+        android:id="@+id/lblPassword"
+        android:layout_below="@+id/lbl_uname"
+        android:layout_alignEnd="@+id/lbl_uname"
+        android:layout_marginTop="66dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUserName"
+        android:layout_below="@+id/lbl_uname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txt_password"
+        android:layout_below="@+id/lblPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txtUserName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/txt_password"
+        android:layout_toEndOf="@+id/lblPassword" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:id="@+id/btn_signup"
+        android:layout_alignTop="@+id/btn_login"
+        android:layout_toEndOf="@+id/btn_login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/status"
+        android:layout_below="@+id/btn_login"
+        android:layout_alignStart="@+id/lblPassword"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/detail"
+        android:layout_below="@+id/status"
+        android:layout_alignStart="@+id/status"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
